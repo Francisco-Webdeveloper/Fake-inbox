@@ -5,6 +5,8 @@ This feature adds content to the DOM after the initial page loads, therefore the
 
 The goal is to simulate email fetching without the use of AJAX.
 
+https://user-images.githubusercontent.com/67716187/125683121-47adfb1a-28ba-4675-9864-9b612d42c811.mov
+
 ## Setup
 
 Go to the Terminal, choose a directory where you wish to clone the repository and run:
@@ -51,4 +53,4 @@ Project created with:
 * JavaScript ES6
 
 ## Other information
-You can also check the code and a preview 👉 
+You can also check the code and a preview 👉 https://codepen.io/francisco-frontend/pen/NWjpKLa
