@@ -1,7 +1,7 @@
 ## Background & Objectives
 
-Simulation of email fetching and addition to the top of the list of an email inbox interface.
-This is adding content to the DOM after the initial page loads. There is no need to refresh the page for new mail to show up.
+Simulation of email fetching and addition of upcoming emails to the top of the list of an inbox interface.
+This feature adds content to the DOM after the initial page loads, therefore there is no need to refresh the page for new mail to show up.
 
 The goal is to simulate email fetching without the use of AJAX.
 
@@ -17,7 +17,7 @@ Launch your local webserver with:
 ```bash
 rake webpack
 ```
-Then open [`localhost:8080`](http://localhost:8080) in your favorite web browser
+Then open [`localhost:8080`](http://localhost:8080) to test the code in the browser
 
 ## Specs
 
@@ -43,3 +43,12 @@ or
 - Development of the function `appendMessageToDom(message)` which takes an object with `subject` and `sender` keys as parameters, and appends a new line for this message to the HTML markup.
 - Implementation of the function `refresh` which is called every `1000` milliseconds.
 - Implementation of `hasNewMessage()` function, and if there is a new message, add it (`newMessage()`) to the top of the inbox (`appendMessageToDom(message)`) and update the counter in the `h1` title
+
+## Technologies
+Project created with:
+* HTML5
+* CSS3
+* JavaScript ES6
+
+## Other information
+You can also check the code and a preview 👉 
