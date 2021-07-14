@@ -7,6 +7,17 @@ The goal is to simulate email fetching without the use of AJAX.
 
 ## Setup
 
+Go to the Terminal, choose a directory where you wish to clone the repository and run:
+```bash
+git clone "git@github.com:Francisco-Webdeveloper/Fake-inbox.git"
+yarn install
+```
+Launch your local webserver with:
+
+```bash
+rake webpack
+```
+Then open [`localhost:8080`](http://localhost:8080) in your favorite web browser
 
 ## Specs
 
